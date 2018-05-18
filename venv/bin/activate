@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelavent variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/gabriel/unb/esw/testing-rest-heroku/venv"
+VIRTUAL_ENV="/home/gabriel/unb/es/testing-rest-heroku/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
