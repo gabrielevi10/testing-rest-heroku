@@ -5,7 +5,7 @@ import unittest
 class TestHeroku(unittest.TestCase):
     def test_home_status_code(self):
         # Envia uma requisição HTTP GET para a aplicação
-        result = requests.get('https://appname.herokuapp.com/')
+        result = requests.get('https://funcionapeloamordedeus.herokuapp.com/')
 
         # Verifica o código de estado da resposta da requisição
         #   Se for sucesso irá retornar 200
@@ -13,7 +13,7 @@ class TestHeroku(unittest.TestCase):
 
     def test_home_data(self):
         # Envia uma requisição HTTP GET para a aplicação
-        result = requests.get('https://appname.herokuapp.com/')
+        result = requests.get('https://funcionapeloamordedeus.herokuapp.com/')
 
         # Verifica o dado da resposta do caminho da página inicial
         self.assertEqual(result.content.decode("utf-8"), "Hello World.")
